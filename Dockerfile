@@ -1,4 +1,4 @@
-FROM maven:3.8.5-openjdk-17 AS builder
+FROM maven:3.9.8-eclipse-temurin-21 AS build
 WORKDIR /app
 
 # Copy the pom.xml and src directory of the INNER user_service
@@ -7,7 +7,7 @@ COPY user_service/src user_service/src
 
 RUN mvn clean install -DskipTests
 
-FROM eclipse-temurin:21-jre-slim
+FROM openjdk:21
 WORKDIR /app
 COPY --from=builder /app/user_service/target/user_service-0.0.1-SNAPSHOT.jar user_service.jar
 EXPOSE 8080
