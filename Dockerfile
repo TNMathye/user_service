@@ -1,4 +1,4 @@
-FROM maven:3.9.6-eclipse-temurin-21 AS builder
+FROM maven:3.8.5-openjdk-17 AS builder
 WORKDIR /app
 
 # Copy the pom.xml and src directory of the INNER user_service
