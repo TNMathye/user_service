@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e21732c5-ab66-408b-a22f-63f680c780e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/java/com/naphtaly_prortfolio/user_service/configurations/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/src/main/java/com/naphtaly_prortfolio/user_service/configurations/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,12 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tlhop\Downloads\user_service" />
+      <recent name="C:\Users\tlhop\Downloads\user_service\user_service" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />

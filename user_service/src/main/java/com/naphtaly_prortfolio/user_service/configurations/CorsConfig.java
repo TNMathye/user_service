@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/users/**")
-                        .allowedOrigins("http://localhost:5173") // Allow frontend URL
+                        .allowedOrigins("https://tnmathye.netlify.app") // Allow frontend URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true) // Allow cookies/auth headers
