@@ -12,11 +12,7 @@ COPY user_service/src ./src
 # Build the application
 RUN ./mvnw clean install -DskipTests
 
-<<<<<<< HEAD
 FROM eclipse-temurin:21-jre
-=======
-FROM eclipse-temurin:21-jre 
->>>>>>> b2bb026d7f4cbdec9cdd3094359a22d5753badc3
 WORKDIR /app
 COPY --from=builder /app/target/user_service-0.0.1-SNAPSHOT.jar user_service.jar
 EXPOSE 8080
